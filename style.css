@@ -1,0 +1,55 @@
+.container {
+  background: #02ca02;
+  width: 50%;
+  padding: 0;
+  padding-bottom: 6px;
+  border-radius: 10px;
+}
+header {
+  background: green;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+main input[type="text"] {
+  width: 90%;
+  border: none;
+  border-bottom: 2px solid green;
+  background: none;
+  outline: none;
+  margin-bottom: 12px;
+}
+.btn-success,
+.btn-addtask {
+  width: 90%;
+  background: green;
+  margin-bottom: 10px;
+}
+footer h6 {
+  margin-bottom: -6px;
+}
+ul.todo-list {
+  width: 100%;
+  padding: 0;
+}
+ul .list-unstyled {
+  background: green;
+  margin-bottom: 10px;
+  width: 90%;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+}
+.del-btn {
+  margin-bottom: 0;
+  background-color: #02ca02;
+}
+.task-completed {
+  text-decoration: line-through;
+  font-style: italic;
+  color: #02ca02;
+}
